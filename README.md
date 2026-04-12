@@ -85,18 +85,18 @@ Untuk melihat hasil Analysys Software dapat dilihat pada direktori berikut ini
 
 ## Fitur Utama
 
--   Reservasi Meja\
--   Pre-order Menu\
--   Manajemen Reservasi\
--   Autentikasi Pengguna\
--   Realtime Update\
+-   Reservasi Meja
+-   Pre-order Menu
+-   Manajemen Reservasi
+-   Autentikasi Pengguna
+-   Realtime Update
 -   Riwayat Reservasi
 
 ## Teknologi yang Digunakan
 
--   Frontend: React\
--   Backend: Firebase (Firestore, Authentication)\
--   Styling: Tailwind CSS\
+-   Frontend: Blade
+-   Backend: Laravel
+-   Styling: Tailwind CSS
 -   Package Manager: npm
 
 ## Status Proyek
