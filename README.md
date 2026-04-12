@@ -9,8 +9,8 @@ melalui sistem yang efisien, responsif, dan real-time.
 
 ## Tim Pengembang
 
--   Tryas 20231310075 --- Project Manager & System Analyst\
--   Salma 20231310085 --- UI/UX Designer & Technical Writer\
+-   Tryas 20231310075 --- Project Manager & System Analyst
+-   Salma 20231310085 --- UI/UX Designer & Technical Writer
 -   Fauzan 202310109 --- Software Engineer & Quality Assurance
 
 ------------------------------------------------------------------------
