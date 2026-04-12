@@ -1,61 +1,106 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Tempat-in
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Tempat-in adalah platform web reservasi kafe/restoran yang dirancang
+untuk mengintegrasikan proses pemesanan meja, pre-order menu, dan
+manajemen reservasi dalam satu sistem digital terpadu. Aplikasi ini
+bertujuan menyederhanakan interaksi antara pelanggan dan pihak restoran
+melalui sistem yang efisien, responsif, dan real-time.
+------------------------------------------------------------------------
 
-## About Laravel
+## Tim Pengembang
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+-   Tryas --- Project Manager & System Analyst\
+-   Salma --- UI/UX Designer & Technical Writer\
+-   Fauzan --- Software Engineer & Quality Assurance
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+------------------------------------------------------------------------
+## SQA Development
+Untuk melihat hasil Analysys Software dapat dilihat pada direktori berikut ini
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+*📁 ***[SQA_Development](./SQA_Development)**
+* 📁 **[Software Design Documentation](./Software%20Design%20Documentation)**
+  * 📁 [1. Pendahuluan](./Software%20Design%20Documentation/1.%20Pendahuluan)
+    * 📄 [1.1 Tujuan](./Software%20Design%20Documentation/1.%20Pendahuluan/1.1%20Tujuan)
+    * 📄 [1.2 Ruang Lingkup](./Software%20Design%20Documentation/1.%20Pendahuluan/1.2%20Ruang%20Lingkup)
+    * 📄 [1.3 Gambaran Umum Dokumen](./Software%20Design%20Documentation/1.%20Pendahuluan/1.3%20Gambaran%20Umum%20Dokumen)
+  * 📁 [2. Deskripsi Umum](./Software%20Design%20Documentation/2.%20Deskripsi%20Umum)
+    * 📄 [2.1 Perspektif Produk](./Software%20Design%20Documentation/2.%20Deskripsi%20Umum/2.1%20Perspektif%20Produk)
+    * 📄 [2.2 Manfaat Produk](./Software%20Design%20Documentation/2.%20Deskripsi%20Umum/2.2%20Manfaat%20Produk)
+    * 📄 [2.3 Karakteristik User](./Software%20Design%20Documentation/2.%20Deskripsi%20Umum/2.3%20Karakteristik%20User)
+    * 📄 [2.4 Batasan-Batasan](./Software%20Design%20Documentation/2.%20Deskripsi%20Umum/2.4%20Batasan-Batasan)
+  * 📁 [3. Software Design](./Software%20Design%20Documentation/3.%20Software%20Design)
+    * 📄 [3.1 Kebutuhan Fungsional](./Software%20Design%20Documentation/3.%20Software%20Design/3.1%20Kebutuhan%20Fungsional)
+    * 📄 [3.2 Kebutuhan Interface](./Software%20Design%20Documentation/3.%20Software%20Design/3.2%20Kebutuhan%20Interface)
+    * 📄 [3.3 Lingkungan Operasi](./Software%20Design%20Documentation/3.%20Software%20Design/3.3%20Lingkungan%20Operasi)
+    * 📄 [3.4 Batas Perancangan](./Software%20Design%20Documentation/3.%20Software%20Design/3.4%20Batas%20Perancangan)
+    * 📄 [3.5 Model Data](./Software%20Design%20Documentation/3.%20Software%20Design/3.5%20Model%20Data)
+    * 📄 [3.6 Rancangan Arsitektur Sistem](./Software%20Design%20Documentation/3.%20Software%20Design/3.6%20Rancangan%20Arsitektur%20Sistem)
+    * 📄 [3.7 Rancangan Interface Halaman](./Software%20Design%20Documentation/3.%20Software%20Design/3.7%20Rancangan%20Interface%20Halaman)
 
-## Learning Laravel
+* 📁 **[Software Requirement Specification](./Software%20Requirement%20Specification)**
+  * 📁 [1. Pendahuluan](./Software%20Requirement%20Specification/1.%20Pendahuluan)
+    * 📄 [1.1 Tujuan](./Software%20Requirement%20Specification/1.%20Pendahuluan/1.1%20Tujuan)
+    * 📄 [1.2 Ruang Lingkup](./Software%20Requirement%20Specification/1.%20Pendahuluan/1.2%20Ruang%20Lingkup)
+    * 📄 [1.3 Definisi, Istilah, dan Singkatan](./Software%20Requirement%20Specification/1.%20Pendahuluan/1.3%20Definisi,%20Istilah,%20dan%20Singkatan)
+    * 📄 [1.4 Referensi](./Software%20Requirement%20Specification/1.%20Pendahuluan/1.4%20Referensi)
+    * 📄 [1.5 Referensi yang Digunakan](./Software%20Requirement%20Specification/1.%20Pendahuluan/1.5%20Referensi%20yang%20Digunakan)
+    * 📄 [1.6 Gambaran Umum Dokumen](./Software%20Requirement%20Specification/1.%20Pendahuluan/1.6%20Gambaran%20Umum%20Dokumen)
+    * 📄 [1.6.1 Deskripsi Gambaran Umum](./Software%20Requirement%20Specification/1.%20Pendahuluan/1.6.1%20Deskripsi%20Gambaran%20Umum)
+    * 📄 [1.6.2 Kebutuhan Fungsional](./Software%20Requirement%20Specification/1.%20Pendahuluan/1.6.2%20Kebutuhan%20Fungsional)
+  * 📁 [2. Deskripsi Umum](./Software%20Requirement%20Specification/2.%20Deskripsi%20Umum)
+    * 📄 [2.1 Perspektif Produk](./Software%20Requirement%20Specification/2.%20Deskripsi%20Umum/2.1%20Perspektif%20Produk)
+    * 📄 [2.2 Software Interface](./Software%20Requirement%20Specification/2.%20Deskripsi%20Umum/2.2%20Software%20Interface)
+    * 📄 [2.3 Hardware Interface](./Software%20Requirement%20Specification/2.%20Deskripsi%20Umum/2.3%20Hardware%20Interface)
+    * 📄 [2.4 Manfaat Produk](./Software%20Requirement%20Specification/2.%20Deskripsi%20Umum/2.4%20Manfaat%20Produk)
+    * 📄 [2.5 Karakteristik User](./Software%20Requirement%20Specification/2.%20Deskripsi%20Umum/2.5%20Karakteristik%20User)
+    * 📄 [2.6 Batasan-Batasan](./Software%20Requirement%20Specification/2.%20Deskripsi%20Umum/2.6%20Batasan-Batasan)
+    * 📄 [2.7 Asumsi dan Ketergantungan](./Software%20Requirement%20Specification/2.%20Deskripsi%20Umum/2.7%20Asumsi%20dan%20Ketergantungan)
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+* 📁 **[Software Test Plan](./Software%20Test%20Plan)**
+  * 📁 [1. Pendahuluan](./Software%20Test%20Plan/1.%20Pendahuluan)
+    * 📄 [1.1 Tujuan](./Software%20Test%20Plan/1.%20Pendahuluan/1.1%20Tujuan)
+    * 📄 [1.2 Latar Belakang](./Software%20Test%20Plan/1.%20Pendahuluan/1.2%20Latar%20Belakang)
+    * 📄 [1.3 Ruang Lingkup](./Software%20Test%20Plan/1.%20Pendahuluan/1.3%20Ruang%20Lingkup)
+  * 📁 [2. Lingkungan Pengujian Perangkat Lunak](./Software%20Test%20Plan/2.%20Lingkungan%20Pengujian%20Perangkat%20Lunak)
+    * 📄 [2.1 Material Pengujian](./Software%20Test%20Plan/2.%20Lingkungan%20Pengujian%20Perangkat%20Lunak/2.1%20Material%20Pengujian)
+    * 📄 [2.2 Teknik Pengujian](./Software%20Test%20Plan/2.%20Lingkungan%20Pengujian%20Perangkat%20Lunak/2.2%20Teknik%20Pengujian)
+  * 📁 [3. Rencana Pengujian](./Software%20Test%20Plan/3.%20Rencana%20Pengujian)
+    * 📄 [3. Rencana Pengujian](./Software%20Test%20Plan/3.%20Rencana%20Pengujian/3.%20Rencana%20Pengujian)
+  * 📁 [4. Hasil Pengujian](./Software%20Test%20Plan/4.%20Hasil%20Pengujian)
+    * 📄 [4. Hasil Pengujian](./Software%20Test%20Plan/4.%20Hasil%20Pengujian/4.%20Hasil%20Pengujian)
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+* 📁 **[Software User Documentation](./Software%20User%20Documentation)**
+  * 📁 [1. Pendahuluan](./Software%20User%20Documentation/1.%20Pendahuluan)
+    * 📄 [1.1 Tujuan](./Software%20User%20Documentation/1.%20Pendahuluan/1.1%20Tujuan)
+    * 📄 [1.2 Karakteristik User](./Software%20User%20Documentation/1.%20Pendahuluan/1.2%20Karakteristik%20User)
+    * 📄 [1.3 System Requirements](./Software%20User%20Documentation/1.%20Pendahuluan/1.3%20System%20Requirements)
+  * 📁 [2. Deskripsi Umum](./Software%20User%20Documentation/2.%20Deskripsi%20Umum)
+    * 📄 [2.1 Perspektif Produk](./Software%20User%20Documentation/2.%20Deskripsi%20Umum/2.1%20Perspektif%20Produk)
+    * 📄 [2.2 Manfaat Produk](./Software%20User%20Documentation/2.%20Deskripsi%20Umum/2.2%20Manfaat%20Produk)
+  * 📁 [3. Penggunaan Rasane Laen](./Software%20User%20Documentation/3.%20Penggunaan%20Rasane%20Laen)
+    * 📄 [3.1 Pencarian Berdasarkan Kata](./Software%20User%20Documentation/3.%20Penggunaan%20Rasane%20Laen/3.1%20Pencarian%20Berdasarkan%20Kata)
+    * 📄 [3.2 Pencarian Berdasarkan Kalimat](./Software%20User%20Documentation/3.%20Penggunaan%20Rasane%20Laen/3.2%20Pencarian%20Berdasarkan%20Kalimat)
+    * 📄 [3.3 Pencarian Berdasarkan Predefined](./Software%20User%20Documentation/3.%20Penggunaan%20Rasane%20Laen/3.3%20Pencarian%20Berdasarkan%20Predefined)
+    * 📄 [3.4 Halaman Tentang](./Software%20User%20Documentation/3.%20Penggunaan%20Rasane%20Laen/3.4%20Halaman%20Tentang)
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## Fitur Utama
 
-## Laravel Sponsors
+-   Reservasi Meja\
+-   Pre-order Menu\
+-   Manajemen Reservasi\
+-   Autentikasi Pengguna\
+-   Realtime Update\
+-   Riwayat Reservasi
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+## Teknologi yang Digunakan
 
-### Premium Partners
+-   Frontend: React\
+-   Backend: Firebase (Firestore, Authentication)\
+-   Styling: Tailwind CSS\
+-   Package Manager: npm
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+## Status Proyek
 
-## Contributing
+Proyek ini berada pada tahap MVP (Minimum Viable Product).
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+------------------------------------------------------------------------
