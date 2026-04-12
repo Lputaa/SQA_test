@@ -4,7 +4,7 @@
 
 @section('content')
 <div class="flex justify-between items-center mb-8">
-    <h1 class="text-3xl font-bold text-gray-900 dark:text-white">Kelola Paket Harga</h1>
+    <h1 class="text-3xl font-bold text-gray-900 dark:text-white">Kelola Menu Bundling</h1>
     <a href="{{ route('admin.packages.create') }}" class="text-white bg-indigo-600 hover:bg-indigo-700 font-medium rounded-lg text-sm px-5 py-2.5 text-center">
         Tambah Paket Baru
     </a>

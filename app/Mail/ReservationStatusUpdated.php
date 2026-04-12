@@ -24,11 +24,21 @@ class ReservationStatusUpdated extends Mailable
     /**
      * Dapatkan amplop pesan.
      */
-    public function envelope(): Envelope
-    {
-        return new Envelope(
-            subject: 'Update Status Reservasi Anda di ' . $this->reservation->restaurant->name,
-        );
+public function envelope(): Envelope
+{
+    $statusText = ucfirst($this->reservation->status); // Contoh: Confirmed, Cancelled
+    $restaurantName = $this->reservation->restaurant->name;
+    $subject = "Status Reservasi Anda di {$restaurantName} Diperbarui menjadi {$statusText}";
+
+    if ($this->reservation->status === 'confirmed') {
+        $subject = "Reservasi Anda di {$restaurantName} telah Dikonfirmasi!";
+    } elseif ($this->reservation->status === 'cancelled') {
+        $subject = "Pemberitahuan Pembatalan Reservasi di {$restaurantName}";
+    }
+
+    return new Envelope(
+        subject: $subject,
+    );
     }
 
     /**

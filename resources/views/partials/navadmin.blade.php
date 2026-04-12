@@ -28,7 +28,7 @@
 
             <a href="{{ route('admin.packages.index') }}" class="{{ $linkClass }} {{ request()->routeIs('admin.packages.*') ? $activeClass : '' }}">
         <i class="fas fa-box-open w-6"></i>
-        <span class="mx-4">Kelola Paket Harga</span>
+        <span class="mx-4">Kelola Menu Bundling</span>
     </a>
 
         <a href="{{ route('admin.tables.index') }}" class="{{ $linkClass }} {{ request()->routeIs('admin.tables.*') ? $activeClass : '' }}">
